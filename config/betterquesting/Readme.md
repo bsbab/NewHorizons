@@ -18,3 +18,14 @@ Copy the file from the modpack config directory back into the repo config direct
 It's a good idea to do a compare vs the QuestDatabase.json file and the DefaultQuests.json file.  The only changes should be the changes you added.  Make sure you didn't leave the Edit mode enabled. A good tool to compare the files is Beyond Compare from http://www.scootersoftware.com .
 
 Once you have committed your DefaultQuests.json file, notify DreammasterXXL and he will accept your pull request and generate an updated en_US.lang file.
+
+Quests 5892-5932 are currently custom quests
+
+Notes for merging:
+Copy in 5892+ at end
+Questlines:	Move Space Race up, copy in Peaceful?
+			Copy in quests to coins, Tier 0, one in multiblock (5916)
+Prereqs:	Quest 1 -> 5904
+			Quest 5 -> 5903
+Replace "choices" with "rewards"
+Replace "bq_standard:choice" with "bq_standard:item"
